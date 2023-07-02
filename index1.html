@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Customer Registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  
+  <body>
+    <div class="background-image"></div>
+      <div class="container background-image">
+        <h2 class="display-5 text-center"><u>HOTEL REGISTRATION FORM</u></h2>
+        <h3 class="text-center">Customer Information</h3>
+        <form class="text-center" action="index2.html"> 
+          <div class="form-group row">
+            <label for="inputName" class="col-sm-2 col-form-label">Customer Name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="Name" placeholder="Customer Name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputDate" class="col-sm-2 col-form-label">Check-in Date:</label>
+            <div class="col-sm-10">
+              <input type="date" class="form-control" id="Check-in-date">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputDays" class="col-sm-2 col-form-label">Total no. of Days:</label>
+            <div class="col-sm-10">
+              <input type="number" class="form-control" id="Days" placeholder="number of days">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="Persons" class="col-sm-2 col-form-label">Total no. of persons:</label>
+            <div class="col-sm-10">
+              <input type="number" class="form-control" id="Persons" placeholder="number of persons">
+            </div>
+          </div>
+        </form>
+        <h3 class="text-center">Room Information</h3>
+        <form class="text-center" action="index2.html">
+          <div class="form-group row">
+            <label for="Room" class="col-sm-2 col-form-label">Choose a Room Type:</label>
+            <div class="col-sm-10">
+              <select id="Room" class="form-control">
+                <option value="Delux Room">Delux Room (cost-Rs 2500/-)</option>
+                <option value="Suite Room">Suite Room(cost-Rs 4000/-)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="Room" class="col-sm-2 col-form-label">Choose Amenities:</label>
+            <div class="col-sm-10">
+              <select id="Room" class="form-control">
+                <option value="AC">AC(cost-Rs 1000/-)</option>
+                <option value="Locker">Locker(cost-Rs 300/-)</option>
+            </select>
+            </div>
+          </div>
+          <div class="form-group-row text-center">
+            <button type="submit" class="btn btn-light btn-lg">Sign in</button>
+          </div>
+        </form>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
